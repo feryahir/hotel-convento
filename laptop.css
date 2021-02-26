@@ -1,0 +1,63 @@
+header{
+    height: 50vh;
+}
+.header-bar{
+    height: 75px;
+}
+.logo{
+    width: 150px;
+    height:75px;
+}
+.header__nav-bar li{
+    margin: 0 30px;
+}
+.header__nav-bar a{
+    font-size: 1.8rem;
+}
+header .header--button{  
+    left: calc(50% - 160px);
+    top: calc(50vh - 60px);
+    width: 320px;
+    height: 60px;
+    font-size: 2.6rem;
+}
+.main-about{
+    display: flex;
+}
+.main-about__description{
+    font-size: 2rem;
+    line-height: 2.4rem;
+    margin-top: 30px;
+    width: 50%;
+}
+.main-about__facade{
+    width: 30%;
+    margin: 30px 10%;
+}
+.services__lists{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.prices-forweek{
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer-left{
+    height: 80px;
+    padding-top: 30px;
+    flex-direction: row;
+}
+.footer-right{
+    height: 80px;
+    display: flex;
+}
+.footer-socialmedia {
+    width: 50%;
+}
+.footer-devel{
+    padding-top: 30px;
+}
+.footer-devel p{
+    margin-top: 10px;
+}
